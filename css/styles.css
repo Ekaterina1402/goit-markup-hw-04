@@ -86,10 +86,26 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-
+/*Overlay*/
+.overlay {
+  min-width: 1600px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/ImgSqoosh.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 /* Order service */
 .order-service {
-  background: var(--second-background-color);
+  /*background: var(--second-background-color);*/
   color: var(--accent-color);
   display: block;
   text-align: center;
