@@ -9,6 +9,7 @@
   --third-background-color: #f5f4fa;
   --footer-color: rgba(255, 255, 255, 0.6);
   --box-shadow-color: rgba(0, 0, 0, 0.15);
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -406,10 +407,36 @@ ul {
   justify-content: space-between;
   margin-top: 0;
 }
-.social-links-list {
+.social-icon-list {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+  padding-left: 0;
+}
+.social-icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--accent-color);
+  border: transparent;
+  border-radius: 50%;
+}
+.social-icon-link:hover {
+  background-color: var(--second-accent-color);
+  border-radius: 50%;
+}
+.social-icon:hover {
+  fill: var(--accent-color);
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon-color);
 }
 
 /* Footer */
