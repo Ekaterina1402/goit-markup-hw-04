@@ -449,6 +449,7 @@ ul {
 .container-footer {
   display: block;
   width: calc((100% - 30px * 3) / 4);
+  margin-right: auto;
 }
 .addr-conteiner {
   width: 231px;
