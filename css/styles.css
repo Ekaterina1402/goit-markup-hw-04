@@ -449,11 +449,10 @@ ul {
 .container-footer {
   display: block;
   width: calc((100% - 30px * 3) / 4);
-  margin-right: auto;
 }
 .addr-conteiner {
   width: 231px;
-  margin-left: 215px;
+
   margin-right: 70px;
 }
 .icons-container {
@@ -508,6 +507,9 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--second-background-color);
+}
+.footer-div {
+  padding-left: 55px;
 }
 
 .logo-footer {
